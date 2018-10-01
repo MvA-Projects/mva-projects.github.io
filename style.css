@@ -19,6 +19,7 @@ body {
 p {
     color: #DDDDDD;
     font-size: 20px;
+    font-family: 'Roboto', monospace;
 }
 
 .title {
@@ -38,6 +39,8 @@ hr {
     bottom: 0%;
     background-color: #222222;
     width: 100%;
+    padding-left: 5px;
+    width: 99.65%;
 }
 
 a {
