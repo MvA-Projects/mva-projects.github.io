@@ -1,0 +1,159 @@
+/* base elements */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+
+hr {
+    width: 55%;
+}
+
+p {
+    font-family: 'K2D', monospace;
+    font-size: 18px;
+    color: #b967ff;
+}
+
+button {
+    color: #333333;
+    background-color: #ff71ce;
+    border-style: none;
+    border-radius: 25px;
+    font-weight: bolder;
+    text-shadow: 1px 1px #01cdfe;
+    padding: 5px;
+}
+
+input {
+    background-color: #01cdfe;
+    color: #333333;
+    text-shadow: 1px 1px #ff71ce;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    border-radius: 10px;
+    border: solid 1px;
+    padding: 5px;
+}
+
+/* Divs */
+.content {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    padding-bottom: 50px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0%;
+    left: 0%;
+    width: 98.65%;
+    background-color: #222222;
+    padding-left: 15px;
+}
+
+/* <p> tags */
+.p-footer {
+    font-size: 12px;
+}
+
+.p-title {
+    font-family: 'K2D', monospace;
+    font-size: 54px;
+    font-weight: bolder;
+    color: #01cdfe;
+    text-shadow: 3px 3px #ff71ce;
+}
+
+.p-header {
+    font-family: 'K2D', monospace;
+    font-size: 28px;
+    color: #01cdfe;
+    text-shadow: 1.5px 1.5px #ff71ce;
+}
+
+@media only screen and (max-device-width: 768px) {
+
+    /* base elements */
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: #333;
+    }
+
+    hr {
+        width: 55%;
+    }
+
+    p {
+        font-family: 'K2D', monospace;
+        font-size: 40px;
+        color: #b967ff;
+    }
+
+    button {
+        color: #333333;
+        font-size: 60px;
+        background-color: #ff71ce;
+        border-style: none;
+        border-radius: 25px;
+        font-weight: bolder;
+        text-shadow: 1px 1px #01cdfe;
+        padding: 5px;
+    }
+
+    input {
+        background-color: #01cdfe;
+        color: #333333;
+        text-shadow: 1px 1px #ff71ce;
+        font-weight: bolder;
+        font-family: 'Roboto', sans-serif;
+        font-size: 60px;
+        border-radius: 10px;
+        border: solid 1px;
+        padding: 5px;
+    }
+
+    input[type=checkbox] {
+        transform: scale(2.67);
+    }
+
+    /* Divs */
+    .content {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        padding-bottom: 50px;
+    }
+
+    .footer {
+        position: fixed;
+        bottom: 0%;
+        left: 0%;
+        width: 98.65%;
+        background-color: #222222;
+        padding-left: 15px;
+    }
+
+    /* <p> tags */
+    .p-footer {
+        font-size: 35px;
+    }
+
+    .p-title {
+        font-family: 'K2D', monospace;
+        font-size: 100px;
+        font-weight: bolder;
+        color: #01cdfe;
+        text-shadow: 3px 3px #ff71ce;
+    }
+
+    .p-header {
+        font-family: 'K2D', monospace;
+        font-size: 80px;
+        color: #01cdfe;
+        text-shadow: 1.5px 1.5px #ff71ce;
+    }
+}
